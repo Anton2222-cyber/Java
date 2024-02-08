@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="edu.itstep.ex4"/>
+
+    <!-- Зброя -->
+    <bean id="gun" class="edu.itstep.ex4.Gun"/>
+    <bean id="machineGun" class="edu.itstep.ex4.MachineGun"/>
+
+    <!-- Гравець -->
+    <bean id="player" class="edu.itstep.ex4.Player">
+        <property name="nickName" value="Player1"/>
+        <property name="bullet" value="10"/> <!-- Початкова кількість куль -->
+        <property name="weapons">
+            <list>
+                <ref bean="gun"/>
+                <ref bean="machineGun"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>

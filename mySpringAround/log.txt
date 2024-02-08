@@ -1,0 +1,45 @@
+begin setFirstName() 12:37:31:531
+data: Ivan
+end setFirstName() 12:37:31:543
+
+
+begin setFirstName() 12:37:31:544
+data: Petr
+end setFirstName() 12:37:31:544
+
+
+begin setLastName() 12:37:31:544
+data: Ivanov
+end setLastName() 12:37:31:545
+
+
+begin setFirstName() 12:37:42:796
+data: Ivan
+end setFirstName() 12:37:42:809
+
+
+begin setFirstName() 12:37:42:809
+data: Petr
+end setFirstName() 12:37:42:809
+
+
+begin setLastName() 12:37:42:810
+data: Ivanov
+end setLastName() 12:37:42:810
+
+
+begin setFirstName() 12:38:40:752
+data: Ivan
+end setFirstName() 12:38:40:766
+
+
+begin setFirstName() 12:38:40:767
+data: Petr
+end setFirstName() 12:38:40:767
+
+
+begin setLastName() 12:38:40:767
+data: Ivanov
+end setLastName() 12:38:40:768
+
+
